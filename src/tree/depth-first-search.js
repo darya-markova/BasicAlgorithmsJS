@@ -1,3 +1,4 @@
+// обход дерева в глубину
 function initCallbacks(callbacks = {}) {
   const initiatedCallbacks = {};
   const stubCallback = () => {};
@@ -34,4 +35,3 @@ export default function depthFirstSearch(rootNode, callbacks) {
 
   depthFirstSearchRecursive(rootNode, processedCallbacks);
 }
-
